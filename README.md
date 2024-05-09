@@ -1,5 +1,5 @@
 # SEA_Alura_Lesson4_Project
-Calcular a quantidade de sequencias sonoras distintas são consideradas musicais em um país.
+Calcular a quantidade de combinações de sequencias sonoras distintas são consideradas musicais em um país.
 Sabendo-se que o ouvido humano sadio pode escutar faixas de frequencias.
 Sabendo-se que sons podem ser emitidos (gerados) por diferentes meios fisicos, por seres ou materiais.
 Sabendo-se que combinações de sequencias de frequencias sonoras são finitas.
