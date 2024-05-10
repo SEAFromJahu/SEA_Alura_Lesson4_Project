@@ -1,6 +1,6 @@
 # SEA_Alura_Lesson4_Project
 Obter a quantidade de combinações de sequencias sonoras distintas consideradas musicais.
-  *Considerações, sabendo-se que:*
+*Considerações, sabendo-se que:*
 1.  A faixa de frequência audível para humanos é normalmente entre 20 Hz e 20.000 Hz.
 2.  Baixas frequências (20 Hz - 200 Hz): Essas frequências são sentidas mais como vibrações do que como sons e são produzidas por objetos grandes como terremotos, trovões e graves profundos.
 3.  Médias frequências (200 Hz - 2.000 Hz): Esta faixa contém a maioria dos sons fundamentais da fala humana e de muitos instrumentos musicais.
