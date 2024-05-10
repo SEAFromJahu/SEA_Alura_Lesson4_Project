@@ -21,6 +21,7 @@ Onde:
 *   d é a diferença justa perceptível (0,003)
 
 Número de intervalos = (log2(20.000) - log2(20)) / log2(1,003) ≈ 3283.
+#
 Portanto, podemos estimar que existem aproximadamente 3.283 frequências perceptíveis entre 20 Hz e 20.000 Hz.
 
 # A ser definido (... O que segue deverá ser ainda definido ...)
