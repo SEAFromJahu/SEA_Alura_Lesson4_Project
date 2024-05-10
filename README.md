@@ -18,8 +18,8 @@ Onde:
 f1 é a frequência mais baixa (20 Hz)
 f2 é a frequência mais alta (20.000 Hz)
 d é a diferença justa perceptível (0,003)
-9.  Conectar os valores:
-Número de intervalos = (log2(20.000) - log2(20)) / log2(1,003) ≈ 3283.
+# Conectar os valores:
+# Número de intervalos = (log2(20.000) - log2(20)) / log2(1,003) ≈ 3283.
 Portanto, podemos estimar que existem aproximadamente 3.283 frequências perceptíveis entre 20 Hz e 20.000 Hz.
 
 11.  Combinações de sequencias de frequências sonoras são finitas.
