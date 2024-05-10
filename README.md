@@ -18,13 +18,13 @@ Onde:
 f1 é a frequência mais baixa (20 Hz)
 f2 é a frequência mais alta (20.000 Hz)
 d é a diferença justa perceptível (0,003)
-# Conectar os valores:
-# Número de intervalos = (log2(20.000) - log2(20)) / log2(1,003) ≈ 3283.
+Conectar os valores: Número de intervalos = (log2(20.000) - log2(20)) / log2(1,003) ≈ 3283.
 Portanto, podemos estimar que existem aproximadamente 3.283 frequências perceptíveis entre 20 Hz e 20.000 Hz.
-
-11.  Combinações de sequencias de frequências sonoras são finitas.
-12.  Cada pais ou região em função de costumes prévios pode considerar sequencias (combinações e sequencias de frequências) como músicas. 
-13.  Cada pais ou região em função de costumes prévios pode considerar sequencias (combinações e sequencias de frequências) como ruido ou não as considerar músicas. 
-14.  Combinações de sequencias de frequências sonoras são finitas.
+... O que segue deverá ser ainda definido ...
+# a ser definido...   
+9.  Combinações de sequencias de frequências sonoras são finitas.
+10.  Cada pais ou região em função de costumes prévios pode considerar sequencias (combinações e sequencias de frequências) como músicas. 
+11.  Cada pais ou região em função de costumes prévios pode considerar sequencias (combinações e sequencias de frequências) como ruido ou não as considerar músicas. 
+12.  Combinações de sequencias de frequências sonoras são finitas.
    
 *# Este projeto tem como propósito utilizar IA via Gemini para que, escolhendo-se um pais ou região, a IA consiga calcular quantas combinações de frequência consideradas musicas podem ser produzidas e entendidas como tal.*
