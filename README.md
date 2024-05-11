@@ -13,22 +13,28 @@ Embora seja tecnicamente impossível contar o número exato de frequências aud�
 8.  Usando essa informação, podemos fazer uma estimativa aproximada:
 Dividimos a faixa de frequência em partes menores: Dividiríamos a faixa de 20 Hz a 20.000 Hz em pequenos intervalos que diferem em 0,3%.
 
-Como calcular o número de intervalos? -> Para fazer isso, podemos usar a fórmula:
+Para calcular o número de intervalos podemos usar a fórmula:
 # Número de intervalos = (log2(f2) - log2(f1)) / log2(1 + d)
 Onde:
 *   f1 é a frequência mais baixa (20 Hz)
 *   f2 é a frequência mais alta (20.000 Hz)
 *   d é a diferença justa perceptível (0,003)
-
-Número de intervalos = (log2(20.000) - log2(20)) / log2(1,003) ≈ 3283.
+O número de intervalos = (log2(20.000) - log2(20)) / log2(1,003) ≈ 3283.
 #
-Portanto, podemos estimar que existem aproximadamente 3.283 frequências perceptíveis entre 20 Hz e 20.000 Hz.
+Existem aproximadamente 3.283 frequências perceptíveis entre 20 Hz e 20.000 Hz.
+9. Combinações de sequencias de frequências sonoras perceptíveis são matemáticamente finitas.
+10. Com 3283 intervalos obtemos 2^3283 combinações possíveis de frequência sonoras perceptíveis com tons puros.
+11.  Na realidade, a maioria dos sons que ouvimos (música, fala, natureza) são compostos por múltiplas frequências simultâneas, criando timbres e texturas complexas.
+12.  A intensidade (volume) e a duração de cada frequência influenciam a percepção. Um mesmo tom em diferentes volumes ou durações soa distinto.
+13.  A presença de certas frequências pode mascarar outras, tornando-as inaudíveis.
+14.  A música se baseia em relações harmônicas entre frequências, e não em combinações aleatórias.
+15.  Nosso cérebro não processa cada frequência individualmente. A percepção se dá de forma integrada, com foco em padrões e mudanças no espectro sonoro.
+16. Podemos estimar o número de intervalos de frequência discrimináveis. Calcular o número total de combinações "perceptíveis" é um desafio complexo.
+17. O cérebro humano não analisa cada frequência isoladamente. A percepção é holística, focando em padrões e mudanças no espectro sonoro.
+18. O número de combinações de frequências puras  2^3283 é um número astronômico, mas finito.
+19. A IA esta ai para mensurar grandezas que são impossíveis aos humanos.
 
+Considerando os inputs anteriores, qual é o solução possível para se obter a resposta a questão?
 # A ser definido (... O que segue deverá ser ainda definido ...)
-
-9.  Combinações de sequencias de frequências sonoras são finitas.
-10.  Cada pais ou região em função de costumes prévios pode considerar sequencias (combinações e sequencias de frequências) como músicas. 
-11.  Cada pais ou região em função de costumes prévios pode considerar sequencias (combinações e sequencias de frequências) como ruido ou não as considerar músicas. 
-12.  Combinações de sequencias de frequências sonoras são finitas.
-   
+ 
 *# Este projeto tem como propósito utilizar IA via Gemini para que, escolhendo-se um pais ou região, a IA consiga calcular quantas combinações de frequência consideradas musicas podem ser produzidas e entendidas como tal.*
