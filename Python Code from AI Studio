@@ -1,0 +1,90 @@
+"""
+At the command line, only need to run once to install the package via pip:
+
+$ pip install google-generativeai
+"""
+
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+
+# Set up the model
+generation_config = {
+  "temperature": 1,
+  "top_p": 0.95,
+  "top_k": 0,
+  "max_output_tokens": 8192,
+}
+
+safety_settings = [
+  {
+    "category": "HARM_CATEGORY_HARASSMENT",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+  {
+    "category": "HARM_CATEGORY_HATE_SPEECH",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+  {
+    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+  {
+    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+    "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+  },
+]
+
+model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest",
+                              generation_config=generation_config,
+                              safety_settings=safety_settings)
+
+prompt_parts = [
+  "input: Sabendo-se que",
+  "output: ",
+  "input: A faixa de frequência audível para humanos é normalmente entre 20 Hz e 20.000 Hz.",
+  "output: ",
+  "input: Baixas frequências (20 Hz - 200 Hz): Essas frequências são sentidas mais como vibrações do que como sons e são produzidas por objetos grandes como terremotos, trovões e graves profundos.",
+  "output: ",
+  "input: Médias frequências (200 Hz - 2.000 Hz): Esta faixa contém a maioria dos sons fundamentais da fala humana e de muitos instrumentos musicais.",
+  "output: ",
+  "input: Altas frequências (2.000 Hz - 20.000 Hz): Sons agudos, como assobios, canto de pássaros e harmônicos de instrumentos musicais, caem nesta faixa.",
+  "output: ",
+  "input: Embora a faixa de audição humana seja frequentemente descrita como 20 Hz a 20.000 Hz, não é tão simples quanto contar os números entre esses dois limites. Isso ocorre porque a frequência é medida em uma escala logarítmica, não linear.",
+  "output: ",
+  "input: Calculando o Número de Frequências Audíveis Embora seja tecnicamente impossível contar o número exato de frequências audíveis entre 20 Hz e 20.000 Hz devido à natureza contínua da escala de frequência, podemos aproximar um número usando o conceito de discriminação de frequência.",
+  "output: ",
+  "input: A discriminação de frequência refere-se à nossa capacidade de distinguir entre duas frequências ligeiramente diferentes. Os humanos geralmente conseguem discriminar entre frequências que diferem em cerca de 0,3% em uma faixa de frequência moderada.",
+  "output: ",
+  "input: Com essa informação, podemos fazer uma estimativa aproximada: Dividimos a faixa de frequência em partes menores: Dividiríamos a faixa de 20 Hz a 20.000 Hz em pequenos intervalos que diferem em 0,3%.",
+  "output: ",
+  "input: Número de intervalos = (log2(f2) - log2(f1)) / log2(1 + d) Onde:f1 é a frequência mais baixa (20 Hz)f2 é a frequência mais alta (20.000 Hz)d é a diferença justa perceptível (0,003)\nCalculamos o número de intervalos -> Número de intervalos = (log2(20.000) - log2(20)) / log2(1,003) ≈ 3283.",
+  "output: ",
+  "input: Combinações de sequencias de frequências sonoras perceptíveis são finitas.",
+  "output: ",
+  "input: Com 3283 intervalos obtemos 2^3283 combinações possíveis de frequência sonoras perceptíveis com tons puros.",
+  "output: ",
+  "input: Na realidade, a maioria dos sons que ouvimos (música, fala, natureza) são compostos por múltiplas frequências simultâneas, criando timbres e texturas complexas.",
+  "output: ",
+  "input: A intensidade (volume) e a duração de cada frequência influenciam a percepção. Um mesmo tom em diferentes volumes ou durações soa distinto.",
+  "output: ",
+  "input: A presença de certas frequências pode mascarar outras, tornando-as inaudíveis.",
+  "output: ",
+  "input: A música se baseia em relações harmônicas entre frequências, e não em combinações aleatórias.",
+  "output: ",
+  "input: Nosso cérebro não processa cada frequência individualmente. A percepção se dá de forma integrada, com foco em padrões e mudanças no espectro sonoro.",
+  "output: ",
+  "input: Podemos estimar o número de intervalos de frequência discrimináveis. Calcular o número total de combinações \"perceptíveis\" é um desafio complexo.",
+  "output: ",
+  "input: O cérebro humano não analisa cada frequência isoladamente. A percepção é holística, focando em padrões e mudanças no espectro sonoro.",
+  "output: ",
+  "input: O número de combinações de frequências puras  2^3283 é um número astronômico, mas finito.",
+  "output: ",
+  "input: A IA esta ai para mensurar grandezas que são impossíveis aos humanos.",
+  "output: ",
+  "input: Considerando os inputs anteriores, qual é o solução possível para se obter a resposta a questão?",
+  "output: ",
+]
+
+response = model.generate_content(prompt_parts)
+print(response.text)
