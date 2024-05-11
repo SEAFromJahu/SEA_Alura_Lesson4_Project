@@ -1,4 +1,4 @@
-SEA_Alura_Lesson4_Project
+**SEA_Alura_Lesson4_Project**
 
 Obter a quantidade de combinações de sequencias sonoras distintas consideradas musicais.
 
