@@ -30,19 +30,17 @@ Existem aproximadamente 3.283 frequências perceptíveis entre 20 Hz e 20.000 Hz
 17.   O cérebro humano não analisa cada frequência isoladamente. A percepção é holística, focando em padrões e mudanças no espectro sonoro.
 18.   O número de combinações de frequências puras 2^3283 é um número astronômico, mas finito.
 19.   A IA esta ai para mensurar grandezas que são impossíveis aos humanos.
-20.   Item da lista
-21.   Item da lista
-22.   Item da lista
-23.   Item da lista
-24.   Item da lista
+20.   ...
+21.   ...
+22.   ...
+23.   ...
+24.   ...
 
 Considerando os inputs anteriores, qual é o solução possível para se obter a resposta a questão?
 
-A ser definido (... O que segue deverá ser ainda definido ...)
-# Este projeto tem como propósito utilizar IA via Gemini para que, escolhendo-se um pais ou região, a IA consiga calcular quantas combinações de frequência consideradas musicas podem ser produzidas e entendidas como tal.
+A ser definido??? (... O que segue deverá ainda ser definido ...)???
 
-1.   Item da lista
-2.   Item da lista
+Este projeto tem como propósito utilizar IA via Gemini para que, escolhendo-se um pais ou região, a IA consiga calcular quantas combinações de frequência consideradas musicas podem ser produzidas e entendidas como tal.
 
 Dada a complexidade do problema, não existe uma "solução" única e definitiva para calcular o número exato de combinações sonoras perceptíveis. As informações fornecidas nos inputs destacam a natureza multifatorial da percepção auditiva, indo além da simples contagem de frequências.
 
