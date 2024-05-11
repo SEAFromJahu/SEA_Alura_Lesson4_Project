@@ -41,7 +41,7 @@ Considerando os inputs anteriores, qual é o solução possível para se obter a
 
 **Este projeto tem como propósito utilizar IA via Gemini para que, escolhendo-se um pais ou região, a IA consiga calcular quantas combinações de frequência consideradas musicas podem ser produzidas e entendidas como tal.**
 
-Dada a complexidade do problema, não existe uma "solução" única e definitiva para calcular o número exato de combinações sonoras perceptíveis. As informações fornecidas nos inputs destacam a natureza multifatorial da percepção auditiva, indo além da simples contagem de frequências.
+*Dada a complexidade do problema, não existe uma "solução" única e definitiva para calcular o número exato de combinações sonoras perceptíveis. As informações fornecidas nos inputs destacam a natureza multifatorial da percepção auditiva, indo além da simples contagem de frequências.*
 
 Entretanto, podemos usar a IA para explorar o problema e obter insights valiosos.
 
