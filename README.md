@@ -35,10 +35,9 @@ Existem aproximadamente 3.283 frequências perceptíveis entre 20 Hz e 20.000 Hz
 22.   ...
 ...
 ...
-
 Considerando os inputs anteriores, qual é o solução possível para se obter a resposta a questão?
 
-A ser definido??? (... O que segue deverá ainda ser definido ...)???
+*A ser definido??? (... O que segue deverá ainda ser definido ...)???*
 
 **Este projeto tem como propósito utilizar IA via Gemini para que, escolhendo-se um pais ou região, a IA consiga calcular quantas combinações de frequência consideradas musicas podem ser produzidas e entendidas como tal.**
 
