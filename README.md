@@ -44,8 +44,9 @@ A ser definido??? (... O que segue deverá ainda ser definido ...)???
 
 Dada a complexidade do problema, não existe uma "solução" única e definitiva para calcular o número exato de combinações sonoras perceptíveis. As informações fornecidas nos inputs destacam a natureza multifatorial da percepção auditiva, indo além da simples contagem de frequências.
 
-Entretanto, podemos usar a IA para explorar o problema e obter insights valiosos. 
-**Abaixo listamos algumas abordagens possíveis:
+Entretanto, podemos usar a IA para explorar o problema e obter insights valiosos.
+
+**Abaixo listamos algumas abordagens possíveis**
 
 **1. Modelagem Computacional da Audição:**
 
